@@ -25,3 +25,26 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+@font-face {
+  font-family: "SpaceX";
+  src: local("SpaceX"),
+   url("../fonts/SpaceX.ttf");
+  font-weight: bold;
+}
+
+html,body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  overflow : none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
